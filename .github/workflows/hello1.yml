@@ -18,3 +18,11 @@ jobs:
         run: echo "Hello Dosto"
       - name: say hello to users
         run: echo "Hello $USER"
+  details:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: show what is the version of python, docker.
+        run: docker --version && python --version
+
+
+    
