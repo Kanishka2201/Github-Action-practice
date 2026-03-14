@@ -11,7 +11,7 @@ jobs:
   build:
     steps:
       - name: Buil Docker Container
-        steps: echo "Docker Container build"
+        run: echo "Docker Container build"
   test:
     steps:
       - name: Test the container
